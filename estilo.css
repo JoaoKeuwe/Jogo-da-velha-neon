@@ -1,0 +1,75 @@
+body {
+    background-image: url(fundo.jpg);
+}
+
+#jogo{
+    width: 303px; 
+    height: 305px;
+    border: solid 5px;
+    color:#0000FF;
+
+}
+
+.linha{
+    height: 100px;
+    border-bottom: solid 2px;
+    color:#0053f8;
+    
+}
+
+.casa{
+    width: 100px;
+    height: 100%;
+    border-right: solid 1px;
+    float: left;
+    background-color: rgb(0, 0, 0);
+    
+}
+ div{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
+} 
+.tudo {
+   margin-top: 255px;
+   display: flex;
+   justify-content: center;
+}
+
+.play1 {
+  margin-right: 500px;
+  margin-top: -200px;
+}
+
+.play2 {
+    margin-left: 480px;
+    margin-top: -130px;
+}
+
+p {
+    margin-top: -10px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h1 {
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.limpar {
+    margin-top: 100px;
+    display: fixed;
+}
+
+.playerWin {
+    background: rgb(138,38,170);
+background: linear-gradient(153deg, rgba(138,38,170,1) 5%, rgba(18,126,154,1) 57%, rgba(104,44,200,1) 93%);
+    width: fit-content;
+    margin-top: 12px;
+    border-radius: 8px;
+    border: solid 3px;
+    display: none;
+}
