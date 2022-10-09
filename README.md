@@ -13,10 +13,10 @@
 
 Utilizei as seguintes Linguagens:
 
- JavaScript <br/>
- Jquery<br/>
- CSS <br/>
- HTML <br/>
+- JavaScript <br/>
+- Jquery<br/>
+- CSS <br/>
+- HTML <br/>
  
 
 ##
