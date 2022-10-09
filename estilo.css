@@ -1,5 +1,7 @@
 body {
     background-image: url(fundo.jpg);
+    background-blend-mode: multiply;
+  background-repeat: no-repeat;
 }
 
 #jogo{
@@ -83,11 +85,96 @@ background: linear-gradient(153deg, rgba(138,38,170,1) 5%, rgba(18,126,154,1) 57
     color: rgb(167, 11, 191);
     font-size: 40px;
     font-family: 'Abril Fatface', cursive;
-font-family: 'Silkscreen', cursive;
+    font-family: 'Silkscreen', cursive;
     -webkit-text-stroke: 0.1px rgb(255, 255, 255);
+    letter-spacing: 2px;
+    animation: fliptitle 4s;
 }
+
+@keyframes fliptitle {
+    from {
+      transform: rotateX(90deg);
+    }
+    to {
+      transform: rotateX(0deg);
+    }
+  }
 
 .neon {
     color: rgb(4, 0, 255);
     -webkit-text-stroke: 2px rgb(251, 0, 247);
 }
+
+@media (max-width: 590px) {
+    .play1 {
+      display: none;
+    }
+  
+    .play2{
+        display: none;
+    }
+  
+    .limpar {
+      margin-top: 10px;
+    }
+  }
+
+  @media (max-width: 375px) {
+    .titulo {
+    font-size: 25px;
+    margin-top: -40px;
+    }
+  
+    #jogo {
+      margin-top: -50px;
+    }
+  
+  }
+
+  @media (max-width: 414px) {
+    .titulo {
+        font-size: 25px;
+        margin-top: -30px;
+        }
+  
+    #jogo {
+      margin-top: -50px;
+    }
+  
+  }
+
+  @media (max-height: 844px) {
+    .titulo {
+        font-size: 30px;
+        margin-top: 20px;
+        }
+  
+    #jogo {
+      margin-top: 20px;
+    }
+
+  }
+
+  @media (max-height: 896px) {
+    .titulo {
+        font-size: 30px;
+        margin-top: 20px;
+        }
+  
+    #jogo {
+      margin-top: -20px;
+    }
+  
+  }
+
+  @media (max-height: 915px) {
+    .titulo {
+        font-size: 30px;
+        margin-top: -10px;
+        }
+  
+    #jogo {
+      margin-top: -20px;
+    }
+  
+  }
