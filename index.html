@@ -1,61 +1,67 @@
 <!DOCTYPE html>
 <html lang="pt">
-<head>
-    <link rel="stylesheet" type="text/css" href="estilo.css"/>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Silkscreen&display=swap" rel="stylesheet">
-    <meta charset="UTF-8">
-    <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+  <head>
+    <link rel="stylesheet" type="text/css" href="estilo.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Silkscreen&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <script
+      type="text/javascript"
+      src="http://code.jquery.com/jquery-1.7.2.min.js"
+    ></script>
     <script type="text/javascript" src="script.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="img/icon2.jpg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="img/icon2.jpg" />
     <title>Jogo da Velha Neon</title>
-</head>
-<body >
+  </head>
+  <body>
     <div class="titulo">
-        <h2>Jogo da velha <br> <span class="neon">Neon</span> #</h2>
+      <h2>
+        Jogo da velha <br />
+        <span class="neon">Neon</span> #
+      </h2>
     </div>
     <section class="tudo">
-       
-    <div id="jogo">
+      <div id="jogo">
         <div class="linha">
-            <div class="casa" id="casa1"></div>
-            <div class="casa" id="casa2"></div>
-            <div class="casa" id="casa3"></div>
+          <div class="casa" id="casa1"></div>
+          <div class="casa" id="casa2"></div>
+          <div class="casa" id="casa3"></div>
         </div>
         <div class="linha">
-            <div class="casa" id="casa4"></div>
-            <div class="casa" id="casa5"></div>
-            <div class="casa" id="casa6"></div>
+          <div class="casa" id="casa4"></div>
+          <div class="casa" id="casa5"></div>
+          <div class="casa" id="casa6"></div>
         </div>
         <div class="linha">
-            <div class="casa" id="casa7"></div>
-            <div class="casa" id="casa8"></div>
-            <div class="casa" id="casa9"></div>
+          <div class="casa" id="casa7"></div>
+          <div class="casa" id="casa8"></div>
+          <div class="casa" id="casa9"></div>
         </div>
+      </div>
+    </section>
+
+    <div class="play1">
+      <img src="img/love (4).png" alt="" />
+      <p>Player 1</p>
     </div>
-</section>
 
-        <div class="play1">
-            <img src="img/love (4).png" alt="">
-            <p>Player 1</p>
-        </div>
+    <div class="play2">
+      <img src="img/3.png" alt="" />
+      <p>Player 2</p>
+    </div>
 
-        <div class="play2">
-            <img src="img/3.png" alt="">
-            <p>Player 2</p>
-        </div>
+    <div class="limpar">
+      <a href="index.html"
+        ><input type="submit" name="Limpar" value="Limpar"
+      /></a>
+    </div>
+    <div id="resultado"></div>
 
-       
-
-        <div class="limpar">
-            <a href="index.html"><input type="submit" name="Limpar" value="Limpar"></a>
-        </div>
-        <div id="resultado"></div>
-
-        <div class="playerWin">
-            
-        </div>
-</body>
-</html> 
+    <div class="playerWin"></div>
+  </body>
+</html>
