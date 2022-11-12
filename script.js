@@ -13,7 +13,6 @@ $(function () {
       // verificação das casas
       if (bgA.indexOf("1.png") >= 0) {
         // estrtura se
-
         vencedor = "1";
       } else {
         vencedor = "2";
