@@ -5,6 +5,7 @@
   <h5>
     O projeto consiste em um jogo da velha ' Moderno' como pode perceber pelas suas cores kk
 <br>
+
     Aproveitei para treinar a lógica em Javascript já usando o JQuery, e também o Front-end com CSS.
   <h5/>
 <div/>
