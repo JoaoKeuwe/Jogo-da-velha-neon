@@ -17,11 +17,9 @@ Utilizei as seguintes Linguagens:
 - Jquery<br/>
 - CSS <br/>
 - HTML <br/>
- 
 
 ##
 
 Video do Projeto ( caso esteja no celular, é só clicar no link :) )
 
 https://user-images.githubusercontent.com/91097315/194733986-035b4c25-6b14-449b-8a12-af677d4d2083.mp4
-
